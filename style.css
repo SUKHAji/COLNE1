@@ -1,0 +1,195 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#minicircle {
+  transition: cubic-bezier(0.19, 1, 0.22, 1) 0.8s;
+  z-index: 99999;
+  position: absolute;
+  border-radius: 50%;
+  background-color: aliceblue;
+  height: 10px;
+  width: 10px;
+}
+
+#navbar {
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+  font-size: 2vw;
+  padding: 30px;
+  justify-content: space-between;
+  display: flex;
+  color: beige;
+}
+#navbar a {
+  color: beige;
+  text-decoration: none;
+}
+#hero-page {
+  line-height: 0.9;
+  padding: 18vh 4vw;
+  display: grid;
+}
+.main-text-1 {
+  font-weight: 900;
+  opacity: 50%;
+  font-size: 10vw;
+  color: white;
+}
+
+.main-text-2 {
+  font-weight: 900;
+  margin: 0px 85px;
+  opacity: 50%;
+  font-size: 10vw;
+  color: white;
+  width: fit-content;
+}
+.small-text {
+  text-align: right;
+  font-size: 1.5vw;
+  color: rgb(221, 214, 214);
+}
+
+#text-side {
+  font-size: 12px;
+  line-height: 2;
+  padding: 2vw 2vw;
+  text-align: right;
+  color: rgb(210, 211, 212);
+}
+#hero-footer {
+  width: 100%;
+  bottom: 2%;
+  padding: 2vw;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+#hero-footer a {
+  color: rgba(221, 214, 214, 0.808);
+  text-decoration: none;
+}
+
+.footer-circles {
+  gap: 5px;
+  display: flex;
+}
+
+.footer-circles i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background-color: rgba(221, 214, 214, 0.651);
+}
+
+#page-2 {
+  height: 100vh;
+  width: 100%;
+}
+#hero-2-main {
+  padding-right: 10vw;
+  padding-top: 15vh;
+}
+
+.page-2-text {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  font-size: 2.5rem;
+  border-top: 1px solid rgb(75, 68, 68);
+  color: #888;
+}
+
+.page-2-text h1 {
+  position: relative;
+  padding: 2rem;
+}
+
+.page-2-text h5 {
+  font-size: 1rem;
+}
+
+.img {
+  opacity: 0;
+  border-radius: 25px;
+  position: absolute;
+  z-index: 999;
+  width: 320px;
+}
+
+#page-3 {
+  height: 100vh;
+  width: 100%;
+}
+
+#page-3-herobox {
+  padding: 7vw;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  display: flex;
+}
+
+#page-3-img img {
+  width: 25vw;
+}
+
+#page-3-text {
+  color: beige;
+}
+
+#page-3-text2 {
+  padding: 5px 15px;
+  text-decoration: none;
+  border: 2px solid rgb(146, 135, 135);
+  border-radius: 20px;
+  color: beige;
+}
+
+#forgot-metion {
+  font-size: 1.5vw;
+  padding: 0vw 4vw;
+  color: #888;
+}
+#forgot-metion a {
+  text-decoration: none;
+  color: #888;
+}
+
+#last-footer {
+  padding: 0 4vw;
+  width: 100%;
+  height: 10%;
+  border-top: 1px solid rgba(197, 193, 193, 0.253);
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.footer-part {
+  align-items: center;
+  gap: 20px;
+  display: flex;
+  color: aliceblue;
+}
+
+.footer-text-last a {
+  color: aliceblue;
+  text-decoration: none;
+}
